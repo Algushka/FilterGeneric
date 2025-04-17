@@ -1,3 +1,4 @@
-public interface Filter <Product> {
-    boolean test (Product p);
+public interface Filter <T> {
+    //
+    boolean test (T p);
 }
